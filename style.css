@@ -50,11 +50,15 @@
 
 .nav-search {
     display: flex;
-    background-color: pink;
+    /* background-color: pink; */
     width: 620px;
     height: 40px;
     border-radius: 4px;
     justify-content: space-evenly;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
 }
 
 .search-select {
@@ -63,10 +67,11 @@
     text-align: center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    border: none;
 }
 
 .search-input {
-    width: 500px;
+    width: 100%;
     font-size: 1rem;
     border: none;
 }
@@ -80,4 +85,48 @@
     background-color: #febd68;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+}
+
+/* box4 */
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box6 */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel {
+    height: 40px;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
 }
